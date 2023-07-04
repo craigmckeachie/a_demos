@@ -28,3 +28,15 @@ npm i json-server
 ```json
 "api": "json-server ./api/db.json"
 ```
+
+### property-binding
+
+Needs angular-logo.png file
+
+### cdk
+
+Needs cdk installed
+
+```
+npm i @angular/cdk faker
+```
