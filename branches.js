@@ -1,8 +1,3 @@
-// let versionPrefix = "a16";
-// let directoryName = `${versionPrefix}_demos`;
-// let rootDirectory = `~/Documents/git/${versionPrefix}`;
-// const destinationDirectory = `${rootDirectory}/${directoryName}`;
-
 let demoBranches = [
   "attribute-directive",
   "cdk-drag-drop-basic",
@@ -66,40 +61,3 @@ let demoBranches = [
   "template-forms-validation",
   "template-forms-validation-messages",
 ];
-
-branches = [...demoBranches];
-
-let scripts = [];
-scripts.push(
-  `#!/bin/bash
-`
-);
-
-let counter = 0;
-branches.forEach((b) => {
-  counter++;
-
-  scripts.push(`
-cp -r ~/Documents/git/a16/a_demos/${b}/* ~/Documents/git/a16/a16_demos/
-cd ~/Documents/git/a16/a16_demos/
-git checkout -b ${b}
-git add .
-git commit -m "${b}"
-git push --set-upstream origin ${b}
-
-git checkout main
-git clean -df
-cd ~/Documents/git/a16/a_demos/ 
-
-    `);
-});
-
-script = scripts.join("");
-
-//Write script file
-let fs = require("fs");
-let fileName = "generated-script.sh";
-fs.writeFile(fileName, script, function (err, data) {
-  if (err) console.log(err);
-  console.log(`Successfully wrote script file to: ${fileName}`);
-});
