@@ -14,6 +14,7 @@ cd ~/Documents/git/a16/a_demos/
     
 cp -r ~/Documents/git/a16/a_demos/cdk-drag-drop-basic/* ~/Documents/git/a16/a16_demos/
 cd ~/Documents/git/a16/a16_demos/
+npm i @angular/cdk
 git checkout -b cdk-drag-drop-basic
 git add .
 git commit -m "cdk-drag-drop-basic"
@@ -26,6 +27,7 @@ cd ~/Documents/git/a16/a_demos/
     
 cp -r ~/Documents/git/a16/a_demos/cdk-drag-drop-reorder-list/* ~/Documents/git/a16/a16_demos/
 cd ~/Documents/git/a16/a16_demos/
+npm i @angular/cdk
 git checkout -b cdk-drag-drop-reorder-list
 git add .
 git commit -m "cdk-drag-drop-reorder-list"
@@ -38,6 +40,8 @@ cd ~/Documents/git/a16/a_demos/
     
 cp -r ~/Documents/git/a16/a_demos/cdk-virtual-scrolling/* ~/Documents/git/a16/a16_demos/
 cd ~/Documents/git/a16/a16_demos/
+npm i @angular/cdk
+npm i faker
 git checkout -b cdk-virtual-scrolling
 git add .
 git commit -m "cdk-virtual-scrolling"
@@ -134,6 +138,7 @@ cd ~/Documents/git/a16/a_demos/
     
 cp -r ~/Documents/git/a16/a_demos/http-error-handling/* ~/Documents/git/a16/a16_demos/
 cd ~/Documents/git/a16/a16_demos/
+npm i json-server
 git checkout -b http-error-handling
 git add .
 git commit -m "http-error-handling"
@@ -146,6 +151,7 @@ cd ~/Documents/git/a16/a_demos/
     
 cp -r ~/Documents/git/a16/a_demos/http-get/* ~/Documents/git/a16/a16_demos/
 cd ~/Documents/git/a16/a16_demos/
+npm i json-server
 git checkout -b http-get
 git add .
 git commit -m "http-get"
@@ -158,6 +164,7 @@ cd ~/Documents/git/a16/a_demos/
     
 cp -r ~/Documents/git/a16/a_demos/http-get-concatMap/* ~/Documents/git/a16/a16_demos/
 cd ~/Documents/git/a16/a16_demos/
+npm i json-server
 git checkout -b http-get-concatMap
 git add .
 git commit -m "http-get-concatMap"
@@ -170,6 +177,7 @@ cd ~/Documents/git/a16/a_demos/
     
 cp -r ~/Documents/git/a16/a_demos/http-get-concatMap1/* ~/Documents/git/a16/a16_demos/
 cd ~/Documents/git/a16/a16_demos/
+npm i json-server
 git checkout -b http-get-concatMap1
 git add .
 git commit -m "http-get-concatMap1"
@@ -182,6 +190,7 @@ cd ~/Documents/git/a16/a_demos/
     
 cp -r ~/Documents/git/a16/a_demos/http-get-forkJoin/* ~/Documents/git/a16/a16_demos/
 cd ~/Documents/git/a16/a16_demos/
+npm i json-server
 git checkout -b http-get-forkJoin
 git add .
 git commit -m "http-get-forkJoin"
@@ -194,6 +203,7 @@ cd ~/Documents/git/a16/a_demos/
     
 cp -r ~/Documents/git/a16/a_demos/http-retry/* ~/Documents/git/a16/a16_demos/
 cd ~/Documents/git/a16/a16_demos/
+npm i json-server
 git checkout -b http-retry
 git add .
 git commit -m "http-retry"
@@ -206,6 +216,7 @@ cd ~/Documents/git/a16/a_demos/
     
 cp -r ~/Documents/git/a16/a_demos/http-start/* ~/Documents/git/a16/a16_demos/
 cd ~/Documents/git/a16/a16_demos/
+npm i json-server
 git checkout -b http-start
 git add .
 git commit -m "http-start"

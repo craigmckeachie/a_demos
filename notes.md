@@ -7,13 +7,29 @@ ng new a16_demos --routing --inline-style --strict=false --inline-template --ski
 2. Clear out default styles and just have page say 'Ready', stage, then commit these changes.
 3. Push repo
 
-4. Create Script (only if necessary, can skip this step if you use previously generated script)
+4. Create start branch
+
+5. Create Script (only if necessary, can skip this step if you use previously generated script)
 
 ```shell
 node create-script.js
 ```
 
 4. Update a14 to a16 in `generated-script.sh`
+
+5. Add npm installs before checkout -b line
+
+to ngrx/counter
+npm i @ngrx/store @ngrx/store-devtools
+
+to all http-
+npm i json-server
+
+to all cdk
+npm i @angular/cdk
+
+to cdk-virtual-scroll
+npm i faker
 
 5. Run `generated-script.sh`
 
