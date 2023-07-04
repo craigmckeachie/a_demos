@@ -17,7 +17,7 @@ node create-script.js
 
 4. Update a14 to a16 in `generated-script.sh`
 
-5. Add npm installs before checkout -b line
+5. Add npm installs before checkout -b line. If you don't regenerate script these will not need to be added.
 
 to ngrx/counter
 npm i @ngrx/store @ngrx/store-devtools
@@ -35,24 +35,8 @@ npm i faker
 
 ## Adjustments
 
-### http demos
-
-```shell
-npm i json-server
-```
+### http demos need this script added
 
 ```json
 "api": "json-server ./api/db.json"
-```
-
-### property-binding
-
-Needs angular-logo.png file
-
-### cdk
-
-Needs cdk installed
-
-```
-npm i @angular/cdk faker
 ```
